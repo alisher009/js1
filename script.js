@@ -1,20 +1,27 @@
-let name = 'Jon'
-let admin = name
-console.log(admin);
+// --------------- задание 1 -----------------//
+// let name = prompt('как вас зовут?')
 
+// if(name[0].toLowerCase() === 'b' && `${name}`.length != true ) {
+//       console.log(alert("welcom"));
+// } else {
+//     console.log(alert("bay"));
+// }
 
-let balanc = 25000
-// Затраты 
-let car = 4480
-let food = 890
-// Доход 
-let invoice = 5500
-let stock = 4200 
-// Итого
-let totalBalance = 0
+// ---------------задание 2---------------------//
 
+// let name = prompt('как вас зовут?')
 
-totalBalance =  balanc - car-food +invoice+stock;
-console.log(totalBalance);
+// if(name[0].toLowerCase() === 'j' && `${name}`.length != "John" ) {
+//       console.log(alert("welcom"));
+// } else {
+//     console.log(alert("bay"));
+// }
 
+//--------------задание3--------------------//
+// let number = prompt('номер')
 
+// if(`${number}`  != true ) {
+//       console.log(alert("welcom"));
+// } else {
+//     console.log(alert("bay"));
+// }
