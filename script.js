@@ -1,27 +1,60 @@
-// --------------- задание 1 -----------------//
+
+let name = prompt('Как вас зовут?')
+let money = 10000
+let account = 7777
+
+name = name[0].toUpperCase() + name.slice(1)
+
+
+if(name === 'Alex'){
+    let account = +prompt("Номер счетa?")
+    if(account == account){
+        let accountMoney = +prompt('Сколько обналичить?')
+        if(accountMoney <= money){
+            let totolmoney = money - accountMoney
+            alert(`Операция успешно завершина   Снято: ${accountMoney}
+            Осталось: ${totolmoney}`);
+         
+        } else {
+            alert( " На счету, Недостаточно средст. ");
+        } 
+    } else {
+        alert('Пользователь не найден: проверте и повторите попытку')
+    }
+} else {
+    alert('Пользователь не найден: проверте и повторите попытку' )
+}
+
+
+
+// // Задание.2
 // let name = prompt('как вас зовут?')
 
-// if(name[0].toLowerCase() === 'b' && `${name}`.length != true ) {
-//       console.log(alert("welcom"));
-// } else {
-//     console.log(alert("bay"));
-// }
+// if (name[0].toLowerCase() === 'a') {
+//     console.log('добро пожаловать ');
+//     let age = prompt('Ваш возраст')
+//     if ( age >= 20 && age <= 40); {
+//         console.log('добро пожаловать ');
 
-// ---------------задание 2---------------------//
 
-// let name = prompt('как вас зовут?')
+//         let accout = prompt('вход больше 100$ ')
+//         if (accout >= 100) {
+//             console.log('Все Отлично');
 
-// if(name[0].toLowerCase() === 'j' && `${name}`.length != "John" ) {
-//       console.log(alert("welcom"));
-// } else {
-//     console.log(alert("bay"));
-// }
+//             let b = prompt('вместимость 10 человек')
 
-//--------------задание3--------------------//
-// let number = prompt('номер')
+//             if (b > 0 && b <= 10) {
+//                 console.log('готово')
+//             } else {
+//                 console.log('много людей');
+//             }
 
-// if(`${number}`  != true ) {
-//       console.log(alert("welcom"));
-// } else {
-//     console.log(alert("bay"));
-// }
+//         } else {
+//             console.log('На счету недостаточно средств Повторите Попытку');
+//         }
+//     }
+//  } else {
+//     console.log('мы за росизм');
+// } 
+
+
