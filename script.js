@@ -99,14 +99,10 @@ if (b === true) {
 
       if(cashCard === '$'|| cashCard === '7777'  ) {
        alert('плотеж успешно завершон:')
-       
-       if (nameFilter !== -1) {
-        products.splice(index, 1);
-    }
+      
       } else {
         alert(' карта не обнаружена')
       }    
-      console.log(products);
     } else {
       alert('досвидание')
     }
