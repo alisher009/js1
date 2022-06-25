@@ -1,0 +1,25 @@
+<script>
+let arr = []
+
+arr.push(1)
+arr.splice(0)
+arr.unshift(23)
+arr.push(!1)
+arr.unshift(2, 4, 10)
+arr[0] = arr[1]
+arr.splice(2)
+arr.unshift(23)
+arr.push(!1)
+arr.push(!1)
+
+console.log(arr)
+</script>
+
+<script>
+[23, 2, 10, 2]
+[1] // 2
+[1, 2, 10, 23]
+[1, 10]
+[0]
+[4, 10, 23]
+</script>
